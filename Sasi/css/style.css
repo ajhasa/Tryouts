@@ -1,11 +1,12 @@
-body {background:#060D75;}
+body {background:#000258}
+/*#060D75;}*/
 
-#night{background: url('Images/night.png') repeat-x bottom;width:100%;height:450px;position:absolute;top:0;left:0;z-index:3000;}
+#night{background: url('../Images/plane.png') no-repeat right;width:100%;height:500px;position:absolute;top:0;left:0;z-index:3000;}
 /*#topnight{background: #1a3162;width:100%;height:500px;position:absolute;top:0;left:0;z-index:3000;}*/
-#night-stars{background: url('../Images/alien.png') no-repeat right;width:100%;height:400px;position:absolute;top:0;left:0;z-index:3001;}
+#night-stars{background: url('../Images/wd.png') no-repeat center;width:100%;height:400px;position:absolute;top:0;left:0;z-index:3001;}
 #moon{position:absolute;top:50px;left:900px;width:85px;height:130px;background:url('Images/moon.png');z-index:9999;}
 
-#container{position:absolute;left:0;right:0;margin:0 auto;text-align:center;width:1000px;height:5700px;background:url('../Images/bg.jpg') no-repeat bottom center;}
+#container{position:absolute;left:0;right:0;margin:0 auto;text-align:center;width:1000px;height:5700px;background:url('../Images/bg3.gif') no-repeat bottom center;}
 #thank-you-container {background:url('thank-you/bg.jpg') left bottom no-repeat;position:absolute;bottom:0;width:999px;height:1224px;}
 .clear{clear:both;}
 .form{position:absolute;bottom:420px;left:60px;}
@@ -21,25 +22,31 @@ body {background:#060D75;}
 #rain .rain5 {height:400px;width:5px;background:url('../Images/placeholder.jpg') repeat;margin:2px 5px 0 0; float:left;}
 #rain .rain6 {height:400px;width:5px;background:url('../Images/placeholder.jpg') repeat;margin:5px 8px 0 0; float:left;}
 
-#cloud1 {position:absolute;top:4900px;left:50px;width:59px;height:40px;background:url('../Images/cloud1.png');}
-#cloud2 {position:absolute;top:4200px;left:850px;width:68px;height:36px;background:url('../Images/cloud2.png');}
-#cloud3 {position:absolute;top:4900px;left:850px;width:46px;height:21px;background:url('../Images/cloud3.png');}
-#cloud4 {position:absolute;top:3700px;left:650px;width:59px;height:40px;background:url('../Images/cloud4.png');}
-#cloud5 {position:absolute;top:3400px;left:200px;width:68px;height:36px;background:url('../Images/cloud5.png');}
-#cloud6 {position:absolute;top:3000px;left:250px;width:46px;height:21px;background:url('../Images/cloud6.png');}
-#cloud7 {position:absolute;top:2150px;left:720px;width:59px;height:40px;background:url('../Images/cloud6.png');}
-#cloud8 {position:absolute;top:2020px;left:10px;width:46px;height:21px;background:url('../Images/cloud6.png');}
-#cloud9 {position:absolute;top:1600px;left:350px;width:59px;height:40px;background:url('../Images/cloud6.png');}
-#cloud10 {position:absolute;top:1300px;left:750px;width:68px;height:36px;background:url('../Images/cloud6.png');}
-#cloud11 {position:absolute;top:1320px;left:590px;width:46px;height:21px;background:url('../Images/cloud6.png');}
-#cloud12 {position:absolute;top:1010px;left:900px;width:59px;height:40px;background:url('../Images/cloud6.png');}
-#cloud13 {position:absolute;top:880px;left:200px;width:68px;height:36px;background:url('../Images/cloud6.png');}
-#cloud14 {position:absolute;top:620px;left:710px;width:46px;height:21px;background:url('../Images/cloud6.png');}
-#cloud15 {position:absolute;top:420px;left:100px;width:68px;height:36px;background:url('../Images/cloud6.png');}
+#cloud1 {position:absolute;top:4900px;left:50px;width:150px;height:90px;background:url('../Images/cloud1.png');}
+#cloud2 {position:absolute;top:4200px;left:850px;width:150px;height:90px;background:url('../Images/cloud1.png');}
+#cloud3 {position:absolute;top:4900px;left:850px;width:150px;height:90px;background:url('../Images/cloud2.png');}
+#cloud4 {position:absolute;top:3700px;left:650px;width:120px;height:110px;background:url('../Images/pig.gif');}
+#cloud5 {position:absolute;top:3400px;left:200px;width:150px;height:90px;background:url('../Images/cloud3.png');}
+#cloud6 {position:absolute;top:3000px;left:250px;width:150px;height:90px;background:url('../Images/cloud1.png');}
+#cloud7 {position:absolute;top:1600px;left:550px;width:350px;height:130px;background:url('../Images/superman.gif');}
+#cloud8 {position:absolute;top:2020px;left:10px;width:150px;height:90px;background:url('../Images/cloud2.png');}
+#cloud9 {position:absolute;top:2150px;left:720px;width:150px;height:90px;background:url('../Images/cloud2.png');}
+#cloud10 {position:absolute;top:1300px;left:750px;width:150px;height:90px;background:url('../Images/cloud2.png');}
+#cloud11 {position:absolute;top:1320px;left:590px;width:150px;height:90px;background:url('../Images/cloud2.png');}
+#cloud12 {position:absolute;top:1010px;left:830px;width:150px;height:90px;background:url('../Images/cloud2.png');}
+#cloud13 {position:absolute;top:880px;left:200px;width:150px;height:90px;background:url('../Images/cloud2.png');}
+#cloud14 {position:absolute;top:620px;left:310px;background: url('../Images/alien.png') no-repeat center;width:350px;height:400px;}
+#cloud15 {position:absolute;top:620px;left:100px;width:150px;height:90px;background:url('../Images/cloud2.png');}
 
 
 
-#ants {position:absolute;top:5578px;left:215px;width:139px;height:64px;background:url('../Images/placeholder.jpg');}
+#cloudlink1{position:absolute;top:450px;left:210px;width:150px;height:90px;background:url('../Images/cloud2.png');title:'our-story'}
+#cloudlink2{position:absolute;top:490px;left:350px;width:150px;height:90px;background:url('../Images/cloud2.png');title:'brides-party'}
+#cloudlink3{position:absolute;top:390px;left:530px;width:150px;height:90px;background:url('../Images/cloud2.png');title:'grooms-party'}
+#cloudlink4{position:absolute;top:420px;left:710px;width:150px;height:90px;background:url('../Images/cloud2.png');title:'venue'}
+/*#cloudlink5{position:absolute;top:460px;left:830px;width:150px;height:90px;background:url('../Images/cloud2.png');title:''}*/
+
+
 #bee1 {position:absolute;top:5570px;left:100px;width:21px;height:29px;background:url('../Images/placeholder.jpg');}
 #bee2 {position:absolute;top:5535px;left:732px;width:24px;height:25px;background:url('../Images/placeholder.jpg');}
 #bird1 {position:absolute;top:4570px;left:100px;width:57px;height:47px;background:url('../Images/placeholder.jpg');}
@@ -73,6 +80,7 @@ body {background:#060D75;}
 #star3 {position:absolute;top:850px;left:200px;width:28px;height:48px;background:url('Images/star1.gif');}
 #star4 {position:absolute;top:920px;left:800px;width:28px;height:33px;background:url('Images/star2.gif');}*/
 #tire {position:absolute;top:5530px;left:355px;width:57px;height:58px;background:url('../Images/placeholder.jpg');}
+#balloon {position:fixed;bottom:-50px;left:50px;width:400px;height:760px;background:url('../Images/balloon2.gif') no-repeat;}
 #tree-topper{position:absolute;top:485px;left:470px;width:73px;height:114px;background:url('../Images/placeholder.jpg');}
 
 
@@ -98,3 +106,15 @@ body {background:#060D75;}
 #t_7pm {position:absolute;top:1165px;left:255px;width:108px;height:51px;background:url('Images/t_7pm.gif');}
 #t_141 {position:absolute;top:765px;left:165px;width:167px;height:104px;background:url('Images/t_141.gif');}
 #t_cantwait{position:absolute;top:150px;left:240px;width:518px;height:89px;background:url('Images/t_cantwait.png');z-index:9999;}
+
+#text_div1 {position:absolute;top:5450px;left:400px;width:600px;height:220px;background:url('../Images/heyyou.gif') no-repeat;}
+#text_div2 {position:absolute;top:4900px;left:315px;width:320px;height:150px;background:url('../Images/freebirds.png');}
+#text_div3 {position:absolute;top:4450px;left:315px;width:150px;height:100px;background:url('../Images/time.png');}
+#text_div4 {position:absolute;top:4000px;left:315px;width:400px;height:280px;background:url('../Images/stairway.png');}
+#text_div5 {position:absolute;top:3550px;left:315px;width:500px;height:80px;background:url('../Images/highway.png');}
+#text_div6 {position:absolute;top:3100px;left:315px;width:100px;height:200px;background:url('../Images/come.png');}
+#text_div7 {position:absolute;top:2650px;left:315px;width:100px;height:200px;background:url('../Images/wholelottalove.png');}
+#text_div8 {position:absolute;top:2200px;left:315px;width:100px;height:200px;background:url('../Images/heroes.png');}
+#text_div9 {position:absolute;top:1750px;left:315px;width:100px;height:200px;background:url('../Images/date.png');}
+
+#
