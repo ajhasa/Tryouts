@@ -8,9 +8,8 @@
 	<link rel="icon" href="" type="image/x-icon">
 	<link rel="stylesheet" href="./css/style.css" type="text/css" media="screen">
 
-	<script type="text/javascript">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
 
-	</script>
 
 	<script type="text/javascript">
 		function goToAnchor() {
@@ -25,6 +24,10 @@
 	</script>
 
 	<script type="text/javascript">
+    function page(name)
+    {
+        window.location.href='links/'+name;
+    }
 		$(document).ready(function() {
 
 
@@ -53,9 +56,7 @@ img.emoji {
 
 <div id="night"></div>
 <div id="night-stars">
-  <form action="links/Venue.html">
-      <input type="submit" value="Go to Venue" />
-  </form>
+
 </div>
 
 <div id="container">
@@ -94,12 +95,13 @@ img.emoji {
 	<div id="cloud13"></div>
 	<div id="cloud14"></div>
 	<div id="cloud15"></div>
-  <div id="cloudlink1"></div>
-  <div id="cloudlink2"></div>
-  <div id="cloudlink3"></div>
-  <div id="cloudlink4"></div>
-  <div id="cloudlink5"></div>
+  <div id="cloudlink1"><img class="cloudtext" src="Images/OurStory.png" title='Our Story' onclick=page('AboutUs.html')></img></div>
+  <div id="cloudlink2"><img class="cloudtext" src="Images/BridesParty.png" title='Brides Party' onclick=page('Bridesmaids.html')></img></div>
+  <div id="cloudlink3"><img class="cloudtext" src="Images/GroomsParty.png" title='Grooms Party' onclick=page('Groomsmen.html')></img></div>
+  <div id="cloudlink4"><img class="cloudtext" src="Images/TheEvent.png" title='The Event' onclick=page('Venue.html')></img></div>
+  <!-- <div id="cloudlink5"></div> -->
 	<div id="cupid"></div>
+  <div id="luttappi"></div>
 	<div id="cupid_swinging"></div>
 	<div id="heart"></div>
 	<div id="horse"></div>
@@ -115,6 +117,7 @@ img.emoji {
   <div id="text_div7"></div>
   <div id="text_div8"></div>
   <div id="text_div9"></div>
+  <div id="text_div10"></div>
 	<div id="rain">
 		<div class="rain1"></div>
 		<div class="rain2"></div>
