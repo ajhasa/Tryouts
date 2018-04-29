@@ -3,8 +3,28 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="../css/style.css"></link>
+  <style>
+    @media screen and (min-width:1000px){
+    .item div div{max-width:50%;width:50%;position:relative;float:left;max-height:100%;padding:10px;overflow:hidden;margin-bottom:10px;}
+    .item{ height:81vh;}
+    h4{padding-left:10px;font-family:Decalled !important;font-size:40px !important;color:darkmagenta;}
+    .textDiv{max-width:40% !important;font-family:Goodfish;font-size:18px;}
+    }
+    @media screen and (max-width:1000px){
+      .item div div{width:100%;position:relative;float:left;max-height:100%;padding:10px;overflow:hidden;margin-bottom:10px;font-size:32px;}
+      .item{ height:100vh !important;}
+      h3{font-size:70px;}
+      h4{padding-left:10px;font-family:Decalled !important;font-size:40px !important;color:darkmagenta;}
+      .carousel, .carousel-inner{height:100vh;}
+      .item {max-height:100% !important;}
+      .textDiv{font-family:Goodfish;font-size:36px !important;}
+    }
+    body{background:url("../Images/flowers2.jpg") !important;}
+    .item div div img{display:block;margin-left:auto;margin-right:auto;height:100%;}
+  </style>
 </head>
-<body>
+<body class="subPage">
+<h3>Groom's Party</h3>
 <div id="carouselContainer">
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
@@ -17,16 +37,33 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <img src="../Images/StoryPics/1.jpg" alt="Los Angeles">
+      <div>
+      <h4>Ajay Sureshkumar aka Aji aka Thakkuddu</h4>
+      <div><img src="../Images/Groomsmen/3.jpg" alt="Ajay Sureshkumar"></div>
+      <div class="textDiv">
+        Aji, the crazy one in the family. It’s been a pleasure seeing him grow from a chubby playful kid to this brooding, enigmatic young man. A man with a delightful flair for words, intriguing persona and an eclectic mix of friends from literally all over the world. Avid reader, non-conformist, and a self-styled “buddhi jeevi”, who will leave a lasting mark once you get to know him. Provided you catch hold of him first, that is. And good luck with that!
+      </div>
+      </div>
     </div>
 
     <div class="item">
-      <img src="../Images/StoryPics/2.jpg" alt="Chicago">
+      <div>
+      <h4>Rohan Warrier aka Floppan</h4>
+      <div><img src="../Images/Groomsmen/2.jpg" alt="Rohan R Warrier"></div>
+      <div class="textDiv">
+      Friend and numero uno partner-in-crime. And it’s surprising how an eerily similar path our lives have taken, right from our school, college, MBA and even to our marriage, most probably. His desire to try out new things has led him to bravely embark on many endeavours, only to find them all end as grand flops. And hence the name. He has been around long enough (right from school) to witness how I have evolved over time. I have always felt that he is someone who instinctively understands my thought processes without any need for words.
+      </div>
+      </div>
     </div>
 
     <div class="item">
-      <img src="../Images/StoryPics/3.jpg" alt="New York">
-    </div>
+      <div>
+        <h4>Abhishek Johri</h4>
+        <div><img src="../Images/Groomsmen/1.jpg" alt="Abhishek Johri"></div>
+        <div class="textDiv">
+      Friend. Travel mate. Flat mate. The list goes on. It’s by pure stroke of luck that we happened to be wing mates in IIM Calcutta. He has been a constant and calm presence in my life since then. Someone who I can just walk upto for any advice or help. Hard core biker, travel enthusiast, dog lover and Man United fan, he is a man of strong tastes and preferences. A natural leader of the pack and a true inspiration.
+      </div>
+      </div>
   </div>
 
   <!-- Left and right controls -->

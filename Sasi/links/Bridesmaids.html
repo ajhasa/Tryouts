@@ -1,25 +1,100 @@
-<!DOCTYPE HTML5>
 <head>
-  <link rel="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"></link>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../css/style.css"></link>
+  <style>
+    @media screen and (min-width:1000px){
+    .item div div{max-width:50%;width:50%;position:relative;float:left;max-height:100%;padding:10px;overflow:hidden;margin-bottom:10px;}
+    .item{ height:81vh;}
+    h4{padding-left:10px;font-family:Decalled !important;font-size:40px !important;color:darkmagenta;}
+    .textDiv{max-width:40% !important;font-family:Goodfish;font-size:18px;}
+    }
+    @media screen and (max-width:1000px){
+      .item div div{width:100%;position:relative;float:left;max-height:100%;padding:10px;overflow:hidden;margin-bottom:10px;font-size:32px;}
+      .item{ height:100vh !important;}
+      h3{font-size:70px;}
+      h4{padding-left:10px;font-family:Decalled !important;font-size:40px !important;color:darkmagenta;}
+      .carousel, .carousel-inner{height:100vh;}
+      .item {max-height:100% !important;}
+      .textDiv{font-family:Goodfish;font-size:36px !important;}
+    }
+    body{background:url("../Images/flowers6.jpg") !important;}
+    .item div div img{display:block;margin-left:auto;margin-right:auto;height:100%;}
+  </style>
 </head>
-<body>
-  <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-  <div class="slider-nav">
-    <div>your content 1</div>
-    <div>your content 2</div>
-    <div>your content 3</div>
+<body class="subPage">
+<h3>Bride's Party</h3>
+<div id="carouselContainer">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <div>
+      <h4>Anjana George</h4>
+      <div><img src="../Images/Bridesmaids/1.jpg" alt="Anjana George"></div>
+      <div class="textDiv">
+        Friend, mentor and sister, I cannot imagine a life without Anjana. A chance encounter while crossing the road made us roommates. And thus began our never-ending saga. A painter, designer, and writer, she is one of those people who knows too many people and does too many things in life. As if to compensate, she is a journalist by profession, she pours her heart and soul, and at times, her health, into her work. She is the very definition of passion. And the best thing about her, she pulls no stop when it comes to taking care of the people she loves. Anjana George is a woman to reckon with. I am in love with this woman.
+      </div>
+      </div>
+    </div>
+    <div class="item">
+      <div>
+      <h4>Ankitha Gowda aka Anki Monkey</h4>
+      <div><img src="../Images/Bridesmaids/2.jpg" alt="Ankitha Gowda"></div>
+      <div class="textDiv">
+        Not for once did I think in the beginning that I would become such good friends with Anki Monkey. Carpooling took on a new definition under her regime. It meant philosophising, academic discussions, pondering over dreams and goals, and quite a bit of bitching about people at work. She is a go-getter and her insane energy is so infectious that you don’t realize that you are getting caught up in her elaborate plans. Eternally bubbly, even when she is down in the dumps, and a perpetual chatterbox, she made me break down the barriers to making new bonds in life. Ever grateful, my love.
+      </div>
+    </div>
+    </div>
+    <div class="item">
+      <div>
+        <h4>Fathima Nisar </h4>
+        <div><img src="../Images/Bridesmaids/3.jpg" alt="Fathima Nisar"></div>
+        <div class="textDiv">
+          Perhaps, the only person to witness and know me at my best and worst, except for the idiot who has set out to marry me. Fathima Nisar is a brand unto herself. If ever there was a catalyst in unleashing the real me, Fathima Nisar was it. College mates, hostel mates, and then three long years of long distance relationship, and then roommates again. We saw each other transition from being immature college kids to even more immature working adults. She’s the one I know I might take for granted just because I know she’ll be there for me. But I dare not do that because she’s just too valuable. All I can think of when I think of her is: If Fathima Nisar was a boy, I don’t think Arun Sasikumar would have stood a chance. :D
+        </div>
+    </div>
+    </div>
+    <div class="item">
+      <div>
+      <h4>Roshnara Mohamed aka Rosh</h4>
+      <div><img src="../Images/Bridesmaids/4.jpg" alt="Roshnara Mohamed"></div>
+      <div class="textDiv">
+        The NRI-kutty in our midst, she used to be known as the world bank. Rosh was so generous with lending her money, it took years to track down the debtors! Her classic sarcasm and contempt for most things around her meant that people didn’t usually get her unless their IQ was above a certain level. Rosh prefers the world with BGM. So, you’ll see her walking around with ear phones plugged in all the time. She sings, she makes fun crafty stuff and she buys books endlessly. She’s one of those people who I know will have my back whatever mess I get myself into.
+      </div>
+      </div>
+    </div>
+
+    <div class="item">
+      <div>
+      <h4>Sneha Stephen</h4>
+      <div><img src="../Images/Bridesmaids/5.jpg" alt="Sneha Stephen"></div>
+      <div class="textDiv">
+        Stephen is always quintessentially Stephen. Her expressive gestures while talking would set her apart from the crowd from miles away. A corporate manager and a writer by the side, she is one of my oldest friends. Ten effin years. I truly won this woman’s friendship ever since her words of wisdom during some of the darkest hours of my life. With so much crazy going on around, it’s absolutely necessary to have someone level-headed as Stephen around. Added bonus: Stephen’s wicked sense of style makes it an absolute pleasure to shop with her.
+      </div>
+      </div>
+    </div>
   </div>
-  <script>
-    $(document).ready(function(){
-      $('.slider-nav').slick({
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      asNavFor: '.slider-for',
-      dots: true,
-      centerMode: true,
-      focusOnSelect: true
-    });
-  });
-  </script>
-  <body>
+
+  <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  </div>
+<body>
