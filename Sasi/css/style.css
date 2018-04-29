@@ -136,6 +136,6 @@ src: url("../css/Stingray.otf");}
 .item {max-height:400px;}
 .item img{max-height:500px;margin:auto;}
 .subPage{background:#e4e4ff;padding:20px;}
-.subPage h3, .subPage div h3{font-family:AlexBrush;color:blueviolet;font-size:120px;}
+.subPage h3, .subPage div h3{font-family:AlexBrush;color:blueviolet;font-size:90px;}
 .subPage h4, .item h4{ font-size:20px;}
 .subPage p, .item p{font-family: Pentay;}
