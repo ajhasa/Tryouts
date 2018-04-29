@@ -62,7 +62,7 @@ body {background:#000258}
 #bird12 {position:absolute;top:1400px;left:302px;width:150px;height:90px;background:url('../Images/cloud2.png');}
 #bird13 {position:absolute;top:950px;left:100px;width:150px;height:90px;background:url('../Images/cloud1.png');}
 #bird14 {position:absolute;top:700px;left:602px;width:150px;height:90px;background:url('../Images/cloud2.png');}
-#bird15 {position:absolute;top:400px;left:452px;width:150px;height:90px;background:url('../Images/cloud2.png');}
+#bird15 {position:absolute;top:1150px;left:452px;width:150px;height:90px;background:url('../Images/cloud2.png');}
 
 /* #carriage {position:absolute;top:2520px;left:540px;width:246px;height:195px;background:url('../Images/placeholder.jpg');}
 #chirp {position:absolute;top:2935px;left:505px;width:107px;height:130px;background:url('../Images/placeholder.jpg');}
@@ -80,8 +80,8 @@ body {background:#000258}
 #star4 {position:absolute;top:920px;left:800px;width:28px;height:33px;background:url('Images/star2.gif');}*/
 /* #tire {position:absolute;top:5530px;left:355px;width:57px;height:58px;background:url('../Images/placeholder.jpg');} */
 #balloon {position:fixed;bottom:-50px;left:50px;width:400px;height:760px;background:url('../Images/balloon2.gif') no-repeat;}
-/* #tree-topper{position:absolute;top:485px;left:470px;width:73px;height:114px;background:url('../Images/placeholder.jpg');} */
-#luttappi {position:absolute;top:3380px;left:755px;width:140px;height:150px;background:url('../Images/luttappi.png');}
+#superman{position:absolute;top:2550px;left:450px;width:250px;height:190px;background:url('../Images/superman.gif');}
+#luttappi {position:absolute;top:3320px;left:455px;width:140px;height:150px;background:url('../Images/luttappi.png');}
 
 
 #bottom {position:absolute;bottom:0;}
@@ -136,6 +136,6 @@ src: url("../css/Stingray.otf");}
 .item {max-height:400px;}
 .item img{max-height:500px;margin:auto;}
 .subPage{background:#e4e4ff;padding:20px;}
-.subPage h3, .subPage div h3{font-family:AlexBrush;color:blueviolet;font-size:70px;}
+.subPage h3, .subPage div h3{font-family:AlexBrush;color:blueviolet;font-size:120px;}
 .subPage h4, .item h4{ font-size:20px;}
 .subPage p, .item p{font-family: Pentay;}
