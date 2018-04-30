@@ -6,7 +6,7 @@ body {background:#000258}
 /* #night-stars{background: url('../Images/wd.png') no-repeat center;width:100%;height:400px;position:absolute;top:0;left:0;z-index:3001;} */
 /* #moon{position:absolute;top:50px;left:900px;width:85px;height:130px;background:url('Images/moon.png');z-index:9999;} */
 
-#container{position:absolute;left:0;right:0;margin:0 auto;text-align:center;width:1000px;height:5700px;background:url('../Images/bg3.gif') no-repeat bottom center;}
+#container{position:absolute;left:0;right:0;margin:0 auto;text-align:center;width:1000px;height:5700px;background:url('../Images/bg.gif') no-repeat bottom center;}
 /* #thank-you-container {background:url('thank-you/bg.jpg') left bottom no-repeat;position:absolute;bottom:0;width:999px;height:1224px;} */
 .clear{clear:both;}
 .form{position:absolute;bottom:420px;left:60px;}
@@ -117,7 +117,7 @@ font-family: "Decalled";
 src: url("../css/Decalled.ttf");}
 @font-face {
 font-family: "Goodfish";
-src: url("../css/goodfish rg.otf");}
+src: url("../css/goodfish-rg.otf");}
 @font-face {
 font-family: "Stingray";
 src: url("../css/Stingray.otf");}
@@ -136,6 +136,29 @@ src: url("../css/Stingray.otf");}
 .item {max-height:400px;}
 .item img{max-height:500px;margin:auto;}
 .subPage{background:#e4e4ff;padding:20px;}
-.subPage h3, .subPage div h3{font-family:AlexBrush;color:blueviolet;font-size:90px;}
+.subPage h3, .subPage div h3{font-family:AlexBrush;color:blueviolet;font-size:90px;width:90% !important;}
 .subPage h4, .item h4{ font-size:20px;}
 .subPage p, .item p{font-family: Pentay;}
+
+@media screen and (min-width:1000px){
+  #backHome
+  {
+    float:right;
+    border:1px black dashed;
+    padding-left:5px;
+    padding-right:5px;
+    background:aliceblue !important;
+    font-size:20px !important;
+  }
+}
+@media screen and (max-width:1000px){
+  #backHome
+  {
+    float:right;
+    border:1px black dashed;
+    padding-left:5px;
+    padding-right:5px;
+    background:aliceblue !important;
+    font-size:30px !important;
+  }
+}
